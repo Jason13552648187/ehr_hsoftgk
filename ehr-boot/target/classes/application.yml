@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    include: sys , ehrhelp-dev,ehrpcm2-dev,ehrmob-dev,ehrpcm-dev,ehrorm-dev,ehrpim-dev,  webapi-dev,  dev
+  application:
+    name: ehr
+  main:
+    allow-bean-definition-overriding: true
+
+  cloud:
+    nacos:
+      discovery:
+        register-enabled: true
+  datasource:
+    isSyncDBSchema: true
+    username: root
+    password: root  # root
+    #url: jdbc:oracle:thin:@127.0.0.1:1521:localorcl
+    url: jdbc:mysql://localhost:3306/a_lab01_fb710d59e?serverTimezone=GMT&autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&useOldAliasMetadataBehavior=true
