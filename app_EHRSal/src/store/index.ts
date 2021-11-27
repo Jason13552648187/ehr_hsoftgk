@@ -12,7 +12,7 @@ import authresource from './modules/auth-resource'
 const state = {
     ...rootstate
 };
-
+// 路由热启动已经修复
 Vue.use(Vuex);
 
 const store = new Vuex.Store({
