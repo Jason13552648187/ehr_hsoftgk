@@ -16,7 +16,7 @@
         <version>1.0.0.0</version>
         <relativePath>ehr-dependencies/pom.xml</relativePath>
     </parent>
-
+<!-- 已重新加载所有springboot启动所需组件 -->
     <modules>
         <!-- dependencies -->
         <module>ehr-dependencies</module>
