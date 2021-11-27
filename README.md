@@ -120,9 +120,3 @@ iBizEHR划分为六大模块:
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0606/164508_6aae40e2_7580957.png "招聘信息.png")
 
 
-# 捐赠
-开源不易，坚持更难！如果您觉得iBizEHR不错，可以捐赠请作者喝杯咖啡~，在此表示感谢^_^。
-
-点击以下链接，将页面拉到最下方点击“捐赠”即可。
-
-[前往捐赠](https://gitee.com/ibizlab/iBizEHR)
