@@ -1,8 +1,7 @@
-iBizEHR是iBiz企业级管理系统群的一个组成部分，iBiz将会把EHR、CRM、EAM、ERP等企业级管理系统群以全新理念、最新技术逐步开源，iBizEHR是开源的第一步。
 
-iBiz企业级管理系统群全面采取中台模式、SpringBoot+VUE前后台分离架构
+宏硕高科人力管理系统全面采用，SpringBoot+VUE前后台分离架构
 # 业务描述
-iBizEHR划分为六大模块:
+本系统划分为六大模块:
 * 人力资源规划
 * 员工关系管理
 * 招聘与配置
@@ -40,6 +39,8 @@ iBizEHR划分为六大模块:
 * Node.js
 * Yarn
 * Vue Cli
+* IDEA
+* Hbuilder
 
 
 
