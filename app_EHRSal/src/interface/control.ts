@@ -20,4 +20,5 @@ export interface ControlInterface {
      * @memberof Control
      */
     getData(): any;
+    
 }
