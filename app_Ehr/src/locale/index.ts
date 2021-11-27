@@ -15,6 +15,7 @@ const messages = {
 
 
 // 自动根据浏览器系统语言设置语言
+// 本地化与国际化语言显示切换bug修复
 const navLang = localStorage.getItem('local') || navigator.language;
 const localLang = (navLang === 'zh-CN' || (navLang === 'en-US' && messages.hasOwnProperty('en-US'))) ? navLang : false;
 let lang: string = localLang || 'zh-CN';
