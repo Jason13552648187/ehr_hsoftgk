@@ -1,47 +1,6 @@
 iBizEHR是iBiz企业级管理系统群的一个组成部分，iBiz将会把EHR、CRM、EAM、ERP等企业级管理系统群以全新理念、最新技术逐步开源，iBizEHR是开源的第一步。
 
-iBiz企业级管理系统群全面采取中台模式、SpringBoot+VUE前后台分离架构、MDD/MDA全方位建模技术，满足上万级用户的高性能需求，致力于提供高可用度、全业务覆盖的重度开源项目，iBizEHR覆盖了人力资源管理的六大模块。
-
-iBiz致力于提升中国软件软件建设和应用的价值，从业务到技术，从用户到开发者，我们希望iBiz能帮助尽可能多的人：
-* 如果你是企业CTO，不仅可以获取运行系统和完整源码，更可获取完整的业务模型，获得系统的实施建设能力和对软件资产的全面管控；
-* 如果你是业务或者技术专家，你不仅可以获取全部的业务模型和完整源码，更可获取更强大的自动化实施能力，延伸强者的手臂；
-* 如果你是一个初学者，我想从没有一个开源项目可以把最先进的业务和技术全面开放，完整的呈现在你的面前，任你所取。
-
-
-# 项目总述
-* iBizEHR是一套可满足万人应用的高性能人力资源管理软件。
-* iBizEHR依托iBiz生产体系，不仅提供源码开放，更可提供EHR全面的业务模型，包括每一个数据实体、每一个服务设计、每一个页面UI、每一个流程模型，源码和业务模型完全对应。
-* 通过对人力资源进行分析、规划、实施和调整，最大化企业人力资源的价值，助力企业发展。有兴趣请帮点一下 **Star** 哦！
-* **[iBiz开源社区](https://www.ibizlab.cn)**
-* **[iBizEHR在线演示-基础管理](http://ehr.ibizlab.cn)**
-* **[iBizEHR在线演示-招聘管理](http://ehrpcm.ibizlab.cn)**
-* **[iBizEHR在线演示-组织管理](http://ehrorm.ibizlab.cn)**
-* **[iBizEHR在线演示-假勤管理](http://ehratt.ibizlab.cn)**
-* **[iBizEHR在线演示-人员异动](http://ehrpcm2.ibizlab.cn)**
-* **[iBizEHR在线演示-绩效管理](http://ehrpar.ibizlab.cn)**
-* **[iBizEHR在线演示-薪酬管理](http://ehrsal.ibizlab.cn)**
-* **[iBizEHR在线演示-培训管理](http://ehrtrm.ibizlab.cn)**
-* **[iBizEHR在线演示-社保管理](http://ehrsoc.ibizlab.cn)**
-* **[iBizEHR解决方案](http://demo.ibizlab.cn/ibizehr)**
-* **[iBizEHR训练营](http://demo.ibizlab.cn/ibizehr_practice)**
-* **[如何在演示系统中建立Issue](https://gitee.com/ibizlab/iBizEHR/wikis/pages?sort_id=2251813&doc_id=692797)**
-* **[iBizEHR配置平台](http://mos.ibizlab.cn/mos/#/common_mosindex/srfkeys=C3D0D486-94AD-402E-A7DF-2E7D431D7C4E)**
-
-* **[更多开源项目](https://gitee.com/ibizlab)**
-
-
-**建模平台内测申请：[iBiz建模平台内测申请通道](https://gitee.com/ibizlab/iBizEHR/wikis/%E5%BB%BA%E6%A8%A1%E5%B9%B3%E5%8F%B0%E5%86%85%E6%B5%8B%E9%A1%BB%E7%9F%A5?sort_id=2992220)**
-
-**我们给您更多的EHR系统选择：[iBizHumanResources（人力资源管理）](https://gitee.com/ibizlab/iBizHumanResources)**
-
-iBizHumanResources区别于iBizEHR：iBizHumanResources为iBiz商业套件重要组成部分，基于iBiz商业套件针对企业人力资源管理的业务管理系统；iBizEHR为针对企业人力资源管理的独立运行的业务管理系统。
-
-
-* **欢迎加入iBizEHR交流QQ群：1056401976**
-
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0520/135506_3a2bca15_7580957.png "iBizEHR_QQ.png")
-
-
+iBiz企业级管理系统群全面采取中台模式、SpringBoot+VUE前后台分离架构
 # 业务描述
 iBizEHR划分为六大模块:
 * 人力资源规划
@@ -51,18 +10,18 @@ iBizEHR划分为六大模块:
 * 绩效管理
 * 薪酬福利管理
 
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0513/151506_9b82c34c_1181347.png "iBizEHR业务模块.png")
-
 
 # 技术框架
-**后台技术架构  [参考Wiki文档](https://gitee.com/ibizlab/iBizEHR/wikis/pages?sort_id=2231366&doc_id=692797)**
+**后台技术架构 
 * 核心框架：Spring Boot
 * 持久层框架: Mybatis-plus
 * 服务发现：Nacos
-* 日志管理：Logback
+* 日志管理：log4j
 * 项目管理框架: Maven
+* 存储数据库：mysql
+* 缓存中间件：redis
 
-**前端技术架构  [参考Wiki文档](https://gitee.com/ibizlab/iBizEHR/wikis/pages?sort_id=2231096&doc_id=692797)**
+**前端技术架构
 * 前端MVVM框架：vue.js 2.6.10
 * 路由：vue-router 3.1.3
 * 状态管理：vue-router 3.1.3
@@ -82,13 +41,6 @@ iBizEHR划分为六大模块:
 * Yarn
 * Vue Cli
 
-
-# 开源说明
-* 本系统100%开源，遵守MIT协议
-
-
-# 项目部署
-* 本地化部署说明   [参考Wiki文档](https://gitee.com/ibizlab/iBizEHR/wikis/pages?sort_id=2234729&doc_id=692797)
 
 
 
