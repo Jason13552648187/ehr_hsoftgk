@@ -23,7 +23,7 @@ interface ViewState {
 
     /**
      * 数据
-     *
+     * 数据初始化，热备份已修复
      * @type {*}
      * @memberof ViewState
      */
