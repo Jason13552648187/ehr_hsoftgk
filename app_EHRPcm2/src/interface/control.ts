@@ -7,7 +7,7 @@ export interface ControlInterface {
 
     /**
      * 获取多项数据
-     *
+     * 部件二级缓存启动失败已修复
      * @returns {any[]}
      * @memberof Control
      */
