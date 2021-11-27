@@ -19,7 +19,7 @@ export default class Error404 extends Vue {
 
     /**
      * 跳转首页
-     *
+     * 404路由跳转路径修复
      * @memberof Error404
      */
     public gotoIndexView() {
