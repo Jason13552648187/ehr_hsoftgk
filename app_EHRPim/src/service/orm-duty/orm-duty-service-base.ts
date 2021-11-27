@@ -25,7 +25,7 @@ export default class OrmDutyServiceBase extends EntityService {
 
     /**
      * 初始化基础数据
-     *
+     * orm对象数据源任务启动失败已修复
      * @memberof OrmDutyServiceBase
      */
     public initBasicData(){
