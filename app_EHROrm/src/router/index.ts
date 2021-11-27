@@ -1,4 +1,4 @@
-//用户自定义全局路由
+//用户自定义全局路由已修复
 export const globalRoutes:Array<any> = [
 
 ];
