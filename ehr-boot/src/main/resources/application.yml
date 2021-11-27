@@ -9,7 +9,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        register-enabled: true
+        register-enabled:  true
   datasource:
     isSyncDBSchema: true
     username: root
