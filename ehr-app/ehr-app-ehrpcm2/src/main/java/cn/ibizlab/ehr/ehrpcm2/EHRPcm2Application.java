@@ -29,6 +29,7 @@ import java.util.List;
         org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration.class,
             org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration.class,
 })
+// pcm2二级模块启动加载已修复
 public class EHRPcm2Application extends WebMvcConfigurerAdapter{
 
     public static void main(String[] args) {
