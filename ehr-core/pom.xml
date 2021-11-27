@@ -58,7 +58,7 @@
             <artifactId>mybatis-plus-boot-starter</artifactId>
         </dependency>
 
-        <!--  MySQL数据库  -->
+        <!--  MySQL数据库驱动版本更新  -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
